@@ -68,6 +68,7 @@
     position: absolute;
     left: 2.7vw;
     bottom: 8vw;
+    cursor: pointer;
 }
 .btn3{
     background: rgb(93, 88, 240);   
@@ -114,6 +115,7 @@
     position: absolute;
     left: 2.7vw;
     bottom: 19.5vw;
+    cursor: pointer;
 }
 /* BIG CARD STYLE END */
 
@@ -136,5 +138,56 @@
 /* RESPONSIVE STYLE FOR SMALL DEVICE */
 /* RESPONSIVE STYLE FOR SMALL DEVICE */
 @media screen and (max-width:576px) {
-    
+    .stories-section{
+        padding: 10.26vw 4.1vw;
+        margin-top: 5.13vw;
+    }
+    .stories-title{
+        font-size: 6.67vw;
+        font-weight: 700;
+        line-height: 14.74vw;
+        margin-bottom: 5.13vw;
+    }
+    .stories-card-container{
+        margin-bottom: 5.13vw;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2.95vw;
+        row-gap: 2.9vw;
+    }
+    #stories-big-card{
+        display: none;
+    }
+    .stories-card-image-container{
+        height: 27.02vw;
+    }
+    .stories-card-title{
+        font-size: 2.34vw;
+        font-weight: 700;
+        line-height: 4.4vw;
+        width: 30.24vw;
+        margin: 5.85vw 5.9vw 4.4vw 5.9vw;
+    }
+    .stories-card-btn{
+        font-size: 2.34vw;
+        font-weight: 500;
+        line-height: 4.4vw;
+        text-transform: capitalize;
+        border-radius: 28.54px;
+        background: rgb(149, 178, 38);;
+        z-index: 2;
+        border: none;
+        padding: 1.3vw 2.88vw;
+        position: absolute;
+        left: 5.8vw;
+        bottom: 16vw;
+        cursor: pointer;
+        }
+        .stories-btn{
+            font-size: 4.1vw;
+            font-weight: 700;
+            line-height: 7.7vw;
+            border-radius: 12px;
+            background: rgb(17, 17, 17);
+            padding: 0 9.5vw;
+        }
 }

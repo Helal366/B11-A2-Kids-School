@@ -102,7 +102,7 @@
 /* RESPONSIVE STYLE FOR SMALL DEVICE */
 @media screen and (max-width: 576px) {
     .curriculum-section{
-        padding: 5.15vw 4.23vw;
+        padding: 5.15vw 4.23vw 0 4.23vw;
     }
     .curriculum-card-container{
         flex-direction: column;
@@ -115,7 +115,7 @@
         margin-bottom:5.13vw;
     }
     .curriculum-card{
-        padding: 9.23vw 7.18vw;
+        padding: 9.23vw 7vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
