@@ -8,6 +8,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    gap: 3.48vw;
 }
 .hero-content-container{
     min-width:44vw;
@@ -15,6 +16,7 @@
 .hero-title{
     font-size: 3.89vw;
     font-weight: 700;
+    margin-top: 8.47vw;
     margin-bottom: 1.68vw;
 }
 .hero-title-description{
@@ -23,7 +25,10 @@
     margin-bottom: 1.68vw;
 }
 .hero-image-container{
-    max-width: 32.5vw;
+    width: 58.5vw;
+}
+.hero-image{
+    width: 100%;
 }
 .hero-btn{
     border-radius: 12px;
@@ -33,9 +38,7 @@
     font-weight: 700;
     padding: 0.2vw 3.1vw;
 }
-.hero-image{
-    width: 100%;
-}
+
 .empower1{
     color: rgb(254, 163, 1);
 }
