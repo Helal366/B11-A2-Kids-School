@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* COMMON STYLES */
+*{margin: 0; padding: 0;}
+body{font-family: Quicksand;
+    background-color: rgb(247, 247, 247);}
+
+
+
+/* NAVBAR STYLE */
+.navbar{
+    padding: 1.8vw 9.76vw;
+    display:flex;
+    justify-content: space-between;
+}
+.nav-left, .nav-middle, .nav-right{
+    height: 5vw;
+}
+.nav-left{    
+    display: flex;
+    gap: 0.76vw;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-left-image {
+    height: 100%;
+}
+.nav-left-title{
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 2.22vw;
+    color: rgb(17, 17, 17);
+}
+.nav-middle{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.9vw;
+}
+.nav-item{
+    list-style: none;
+    font-size: 1.45vw;
+    line-height: 2.8vw;
+}
+.home{
+    color: rgb(254, 163, 1);
+    font-weight: 700;
+}
+.about{
+    color:rgb(1, 172, 253);
+    font-weight: 500;
+}
+.facilities{
+    color:rgb(5, 212, 223);
+    font-weight: 500;
+}
+.admission{
+    color: rgb(93, 88, 239);
+    font-weight: 500;
+}
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.nav-bars{
+    position: absolute;
+    display: none;
+}
+.nav-right-btn-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-btn{
+    background-color:rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    padding: 0.4vw 4.4vw;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.45vw;
+    line-height: 2.8vw;
+}
+.nav-divider{
+    display: none;
+}
+@media screen and (max-width:586px) {
+    .navbar{
+        padding: 3.1vw 4.1vw;
+        height: 11.8vw;
+    }
+    .nav-left, .nav-middle, .nav-right{
+        height: 11.79vw;
+    }
+    .nav-left-title,
+    .nav-btn,
+    .home,
+    .about,
+    .facilities,
+    .admission,
+    .nav-right-btn-list
+    {
+        display: none;
+    }
+    .nav-bars{
+        display: block;
+    }
+    i.fa-solid.fa-bars::before{
+        font-size: 4.1vw;
+    }
+    .nav-divider{
+        display: block; 
+        height: 0.5px;
+        background-color: rgb(254, 163, 1);
+        border: none;
+    }
+}
