@@ -2,18 +2,19 @@
 .main{
     padding: 0 9.76vw;
 }
+
+/* HERO SECTION STYLE */
 .hero-section{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 .hero-content-container{
-    width:44vw;
+    min-width:44vw;
 }
 .hero-title{
     font-size: 3.89vw;
     font-weight: 700;
-    line-height: 4.2vw;
     margin-bottom: 1.68vw;
 }
 .hero-title-description{
@@ -22,7 +23,7 @@
     margin-bottom: 1.68vw;
 }
 .hero-image-container{
-    width: 32.5vw;
+    max-width: 32.5vw;
 }
 .hero-btn{
     border-radius: 12px;
@@ -30,7 +31,6 @@
     color: rgb(112, 112, 112);
     font-size: 1.4vw;
     font-weight: 700;
-    line-height: 2.8vw;
     padding: 0.2vw 3.1vw;
 }
 .hero-image{
@@ -44,4 +44,47 @@
 }
 .age3{
     color: rgb(1, 172, 253);
+}
+
+/* RESPONSIVE STYLE MOBILE MODE */
+@media screen and (max-width:576px) {
+    .main{
+        padding: 0;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+        padding: 5.15vw 2.6vw;
+        margin: 2.05vw 4.3vw 10.25vw 4.1vw;
+    }
+    .hero-image-container{
+       max-width: 86.3vw;
+    }
+    .hero-image{
+        width: 100%;
+    }
+    .hero-content-container{
+        min-height: 64.1vw;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .hero-content-container p{
+        text-align: center;
+        margin-top: 5.2vw;
+    }
+    .hero-title{
+        font-size: 8.2vw;
+        font-weight: 700;
+    }
+    .hero-title-description{
+        font-size: 4.1vw;
+        font-weight: 500;
+    }
+    .hero-btn{
+        color: rgb(255, 255, 255);
+        font-size: 4.1vw;
+        font-weight: 700;
+        padding: 3vw 6.2vw;
+
+    }
 }
