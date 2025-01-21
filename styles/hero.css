@@ -25,7 +25,7 @@
     margin-bottom: 1.68vw;
 }
 .hero-image-container{
-    width: 58.5vw;
+    width: 58.9vw;
 }
 .hero-image{
     width: 100%;
@@ -36,9 +36,11 @@
     color: rgb(112, 112, 112);
     font-size: 1.4vw;
     font-weight: 700;
-    padding: 0.2vw 3.1vw;
+    padding: 0.9vw 3.1vw;
 }
-
+.hero-btn:hover{
+    cursor: pointer;
+}
 .empower1{
     color: rgb(254, 163, 1);
 }
@@ -87,6 +89,6 @@
         color: rgb(255, 255, 255);
         font-size: 4.1vw;
         font-weight: 700;
-        padding: 3vw 6.2vw;
+        padding: 3dvb 6.2vw;
     }
 }

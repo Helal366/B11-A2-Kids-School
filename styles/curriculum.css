@@ -60,7 +60,7 @@
 .ccf2{
     color: rgb(240, 170, 0);
 }
-.ccf3{
+.ccf3gg{
     color: rgb(135, 0, 255);
 }
 .curriculum-left-right-arrow{
@@ -78,6 +78,6 @@
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 1.67vw;
     font-weight: 900;
 }
