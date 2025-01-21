@@ -36,7 +36,7 @@ body{font-family: Quicksand;
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 2.9vw;
+    gap: 2.6vw;
 }
 .nav-item{
     list-style: none;

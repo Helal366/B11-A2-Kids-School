@@ -1,0 +1,47 @@
+/* MAIN SECTION STYLE */
+.main{
+    padding: 0 9.76vw;
+}
+.hero-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-content-container{
+    width:44vw;
+}
+.hero-title{
+    font-size: 3.89vw;
+    font-weight: 700;
+    line-height: 4.2vw;
+    margin-bottom: 1.68vw;
+}
+.hero-title-description{
+    font-size: 1.39vw;
+    font-weight: 400;
+    margin-bottom: 1.68vw;
+}
+.hero-image-container{
+    width: 32.5vw;
+}
+.hero-btn{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(112, 112, 112);
+    font-size: 1.4vw;
+    font-weight: 700;
+    line-height: 2.8vw;
+    padding: 0.2vw 3.1vw;
+}
+.hero-image{
+    width: 100%;
+}
+.empower1{
+    color: rgb(254, 163, 1);
+}
+.student2{
+  color: rgb(17, 17, 17);  
+}
+.age3{
+    color: rgb(1, 172, 253);
+}
