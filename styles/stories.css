@@ -1,13 +1,140 @@
 .stories-section{
     padding: 4.17vw 9.76vw;
-    border: 1px solid green;
     background: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     background-size: 100% 100%;
 }
 .stories-title{
-    border: 1px solid red;
     text-align: center;
     font-size: 3.2vw;
     font-weight: 700;
     margin-bottom: 5.56vw;
+}
+.stories-card-container{
+    margin-bottom: 5.56vw;
+    display: grid;
+    grid-template-columns: 37.5vw 20.13vw 20.13vw;
+    gap: 1.35vw;
+}
+.stories-card{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+.stories-card-title{
+    font-size: 1.07vw;
+    font-weight: 700;
+    margin-bottom: 3.6vw;
+    width: 27.95vw;;
+}
+#stories-big-card{
+    grid-row: 1 / span 2;
+    position: relative;
+}
+#stories-big-card-title
+{
+    font-size: 1.67vw;
+}
+.stories-card-image-container{
+    border-radius: 16px 16px 0px 0px;
+    height: 12.37vw;
+    margin-bottom: 3vw;
+}
+.stories-card-image{
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+.stories-card-title
+{
+    margin-left: 2.63vw;
+    margin-bottom: 2.33vw;
+    width: 13.75vw;
+    line-height: 2vw;
+}
+/* SMALL CARDS BUTTON STYLE START */
+
+.stories-card-btn{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1.07vw;
+    font-weight: 500;
+    line-height: 2vw;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);;
+    z-index: 2;
+    border: none;
+    padding: 0.3vw 1.32vw;
+    position: absolute;
+    left: 2.7vw;
+    bottom: 8vw;
+}
+.btn3{
+    background: rgb(93, 88, 240);   
+}
+
+/* SMALL CARDS BUTTON STYLE END */
+
+/* BIG CARD STYLE START */
+#stories-big-card-image-container
+{
+    height: 23.47vw;
+}
+#stories-big-card-title,
+#stories-big-card-title-description
+{
+    margin-left: 2.66vw;
+}
+#stories-big-card-title{
+    width: 27.95vw;
+    line-height: 2vw;
+}
+#stories-big-card-title-description
+{
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 1.07vw;
+    font-weight: 500;
+    margin-bottom: 2.4vw;
+    width: 30.07vw;
+    line-height: 2.2vw;
+}
+#stories-big-card-btn{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1.07vw;
+    font-weight: 500;
+    line-height: 2vw;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    z-index: 2;
+    border: none;
+    padding: 0.7vw 1.32vw;
+    position: absolute;
+    left: 2.7vw;
+    bottom: 19.5vw;
+}
+/* BIG CARD STYLE END */
+
+
+.stories-btn-container{
+    display: flex;
+    justify-content: center;
+}
+.stories-btn{
+    color: rgb(255, 255, 255);
+    font-size: 1.4vw;
+    font-weight: 700;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 1vw 4.2vw;
+    border: none;
+    cursor: pointer;
+}
+
+/* RESPONSIVE STYLE FOR SMALL DEVICE */
+/* RESPONSIVE STYLE FOR SMALL DEVICE */
+@media screen and (max-width:576px) {
+    
 }

@@ -98,7 +98,8 @@
     font-weight: 900;
 }
 
-/* RESPONSIVE FOR SMALL DEVICE */
+/* RESPONSIVE STYLE FOR SMALL DEVICE */
+/* RESPONSIVE STYLE FOR SMALL DEVICE */
 @media screen and (max-width: 576px) {
     .curriculum-section{
         padding: 5.15vw 4.23vw;
