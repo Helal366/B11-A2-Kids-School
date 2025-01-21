@@ -1,0 +1,13 @@
+.stories-section{
+    padding: 4.17vw 9.76vw;
+    border: 1px solid green;
+    background: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: 100% 100%;
+}
+.stories-title{
+    border: 1px solid red;
+    text-align: center;
+    font-size: 3.2vw;
+    font-weight: 700;
+    margin-bottom: 5.56vw;
+}

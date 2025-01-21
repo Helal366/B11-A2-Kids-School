@@ -1,6 +1,7 @@
 /* MAIN SECTION STYLE */
-.main{
-    padding: 0 9.76vw;
+.hero-section{
+    margin-left: 9.76vw;
+    margin-right: 9.76vw;
 }
 
 /* HERO SECTION STYLE */
@@ -16,7 +17,7 @@
 .hero-title{
     font-size: 3.89vw;
     font-weight: 700;
-    margin-top: 8.47vw;
+    margin-top: 6.47vw;
     margin-bottom: 1.68vw;
 }
 .hero-title-description{

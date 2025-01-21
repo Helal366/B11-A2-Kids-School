@@ -17,7 +17,7 @@ body{font-family: Quicksand;
 .marquee-content{
     color: rgb(1, 172, 253);
     font-weight: bold;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
 }
 .nav-left, .nav-middle, .nav-right{
     height: 4.8vw;

@@ -1,27 +1,8 @@
 /* CURRICULUM SECTION STYLE */
 .curriculum-section{
-    margin: 4.18vw 0;
-}
-.curriculum-card-container{
-    display: flex;
-    gap: 2vw;
-    margin-bottom: 5.56vw;
-}
-.curriculum-card{
-    box-sizing: border-box;
-    border: 0.94px solid rgb(222, 245, 255);
-    border-radius: 18.86px;
-    box-shadow: inset 0px 0px 1.97vw 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-}
-.curriculum-card-image-container{
-    margin: 3.67vw 8.02vw 2.23vw 8.02vw;
-}
-#elementary{
-    margin: 3.67vw 7.86vw 2.74vw 7.86vw 
-}
-.curriculum-card-image{
-    width: 100%;
+    padding: 4.18vw 9.76vw;
+    background: url("../assets/bg.png");
+    background-size: 100% 100%;
 }
 .curriculum-title{
     font-size: 3.2vw;
@@ -29,6 +10,42 @@
     text-align: center;
     margin-bottom:5.56vw;
 }
+.curriculum-card-container{
+    display: flex;
+    gap: 2vw;
+    margin-bottom: 5.56vw;
+}
+.curriculum-first-card{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-second-card{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-third-card{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-card-image-container{
+    margin: 3.67vw 8.02vw 2.23vw 8.02vw;
+}
+#elementary{
+    margin: 3.67vw 7.86vw 2.74vw 7.86vw;
+}
+.curriculum-card-image{
+    width: 100%;
+}
+
 .curriculum-card-title{
     color: rgb(32, 32, 32);
     font-size: 1.71vw;
@@ -46,7 +63,6 @@
     height: 6.1vw;
     width: 19.88vw;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
 .curriculum-card-footer{
     font-size: 1.05vw;
@@ -60,7 +76,7 @@
 .ccf2{
     color: rgb(240, 170, 0);
 }
-.ccf3gg{
+.ccf3{
     color: rgb(135, 0, 255);
 }
 .curriculum-left-right-arrow{
@@ -80,4 +96,71 @@
     color: rgb(255, 255, 255);
     font-size: 1.67vw;
     font-weight: 900;
+}
+
+/* RESPONSIVE FOR SMALL DEVICE */
+@media screen and (max-width: 576px) {
+    .curriculum-section{
+        padding: 5.15vw 4.23vw;
+    }
+    .curriculum-card-container{
+        flex-direction: column;
+        gap:3.15vw;
+    }
+    .curriculum-title{
+        font-size: 6.67vw;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom:5.13vw;
+    }
+    .curriculum-card{
+        padding: 9.23vw 7.18vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .curriculum-card-image-container{
+        margin: 0 27.1vw 5.77vw 27.1vw;
+    }
+    #elementary{
+        margin: 0 27.1vw 5.77vw 27.1vw; 
+    }
+    .curriculum-first-card{
+        border: 0.64px solid rgb(222, 245, 255);
+        border-radius: 12.77px;
+        box-shadow: inset 0px 0px 19.16px 0.64px rgba(0, 0, 0, 0.05);
+    }
+    .curriculum-second-card{
+        border: 0.64px solid rgb(255, 244, 220);
+        border-radius: 12.77px;
+        box-shadow: inset 0px 0px 19.16px 0.64px rgba(0, 0, 0, 0.05);
+    }
+    .curriculum-third-card{
+        border: 0.64px solid rgb(242, 232, 255);
+        border-radius: 12.77px;
+        box-shadow: inset 0px 0px 19.16px 0.64px rgba(0, 0, 0, 0.05);
+    }
+    .curriculum-card-title{
+        color: rgb(32, 32, 32);
+        font-size: 4.17vw;
+        font-weight: 700;
+        margin-bottom: 5.84vw;
+    }
+    .curriculum-card-title-description{
+        font-family: Raleway;
+        font-size: 2.62vw;
+        font-weight: 500;
+        width: 49.69vw;
+        height: 15vw;
+        margin-bottom: 6.5vw;
+    }
+    .curriculum-card-footer{
+        font-size: 2.7vw;
+        font-weight: 700;
+    }
+    .curriculum-left-right-arrow{
+        position: absolute;
+        display: none;
+    }
 }
