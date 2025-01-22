@@ -57,7 +57,8 @@
     color: rgb(1, 172, 253);
 }
 
-/* RESPONSIVE STYLE MOBILE MODE */
+/* RESPONSIVE STYLE SMALL DEVICE */
+/* RESPONSIVE STYLE SMALL DEVICE */
 @media screen and (max-width:576px) {
     .main{
         padding: 0;
@@ -96,5 +97,10 @@
         font-size: 4.1vw;
         font-weight: 700;
         padding: 3dvb 6.2vw;
+        transition: 0.3s ease-out;
+    }
+    .hero-btn:hover{
+        color: rgb(1, 172, 253);
+        font-size: 4.4vw;
     }
 }

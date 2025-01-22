@@ -173,9 +173,6 @@
         height: 15vw;
         margin-bottom: 6.5vw;
     }
-    /* .curriculum-card-footer{
-        
-    } */
     .curriculum-card-footer>a{
         font-size: 2.7vw;
         font-weight: 700;
@@ -184,4 +181,5 @@
         position: absolute;
         display: none;
     }
+    .curriculum-card-footer:hover
 }
