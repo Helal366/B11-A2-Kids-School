@@ -146,4 +146,15 @@
     .footer-right-link-container{
         gap: 2.2vw;
     }
+    .footer-middle, 
+    .footer-right{
+        margin-left: 1.03vw;
+    }
+    .footer-left-logo-container{
+        background-image: url("../assets/logo2.png");
+        background-size: 100% 100%;
+    }
+    .footer-left-logo{
+        display: none;
+    }
 }
