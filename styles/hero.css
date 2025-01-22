@@ -100,7 +100,6 @@
         transition: 0.3s ease-out;
     }
     .hero-btn:hover{
-        color: rgb(1, 172, 253);
         font-size: 4.4vw;
     }
 }
