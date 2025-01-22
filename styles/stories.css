@@ -141,7 +141,6 @@
     transition: 0.3s;
 }
 .stories-btn:hover{
-    /* color:rgb(254, 163, 1); */
     background-color: rgb(1, 172, 253);
     font-size: 1.6vw;
 }
@@ -229,5 +228,9 @@
     .stories-card-btn{
         left: 5.8vw;
         bottom: 9vw;
-        }
+    }
+    .stories-btn:hover{
+        background-color: rgb(1, 172, 253);
+        font-size: 1.6vw;
+    }
 }

@@ -155,6 +155,9 @@
         font-weight: 500;
         line-height: 5.38vw;
     }
+    .fm-list-item>a:hover{
+        font-size: 4.55vw;
+    }
     #fm-about{
         font-size: 5.22vw;
         font-weight: 600;
@@ -170,6 +173,10 @@
     .fr-list-item{
         width: 8.7vw;
         height: 8.7vw;
+    }
+    .fr-list-item:hover .fr-img{
+        width: 9vw;
+        height: 9vw;
     }
     .footer-right-link-container{
         gap: 2.2vw;
