@@ -87,13 +87,16 @@
     width: 2.82vw;
     height: 2.78vw;
 }
-.fr-list-item>img{
+.fr-img {
     width: 100%;
     height: 100%;
     cursor: pointer;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out;    
 }
-.fr-list-item>img:hover{
+.fr-list-item>img>a{
+    text-decoration: none;
+}
+.fr-list-item:hover .fr-img{
     width: 3.2vw;
     height: 3.2vw;
 }
