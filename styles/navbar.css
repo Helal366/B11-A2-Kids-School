@@ -7,7 +7,6 @@ body{font-family: Quicksand;
     background-color: rgb(247, 247, 247);}
 
 
-
 /* NAVBAR STYLE */
 .navbar{
     padding: 1.8vw 9.76vw 0 9.76vw;
@@ -45,8 +44,16 @@ body{font-family: Quicksand;
 }
 .nav-item{
     list-style: none;
+    
+}
+.nav-item>a{
+    text-decoration: none;
     font-size: 1.45vw;
     line-height: 2.8vw;
+    transition: 0.3s;
+}
+.nav-item>a:hover{
+    font-size: 2vw;
 }
 .nav-middle .nav-item:hover{
     cursor: pointer;
@@ -90,13 +97,18 @@ body{font-family: Quicksand;
     border-radius: 12px;
     font-size: 1.45vw;
     line-height: 2.8vw;
+    transition: 0.3s ease-out;
 }
 .nav-btn:hover{
     cursor: pointer;
+    background-color: rgb(1, 172, 253);
+    font-size: 1.9vw;
 }
 .nav-divider{
     display: none;
 }
+
+
 @media screen and (max-width:576px) {
     .navbar{
         padding: 3.1vw 4.1vw;

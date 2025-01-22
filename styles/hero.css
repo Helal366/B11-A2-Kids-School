@@ -38,9 +38,12 @@
     font-size: 1.4vw;
     font-weight: 700;
     padding: 0.9vw 3.1vw;
+    border: none;
 }
 .hero-btn:hover{
     cursor: pointer;
+    background-color: rgb(1, 172, 253);
+    color: rgb(255, 255, 255);
 }
 .empower1{
     color: rgb(254, 163, 1);
