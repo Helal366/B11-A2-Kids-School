@@ -67,11 +67,14 @@
     left: 2.7vw;
     bottom: 8vw;
     cursor: pointer;
+    transition: 0.3s ease-out;
 }
 .btn3{
     background: rgb(93, 88, 240);   
 }
-
+.stories-card-btn:hover{
+    font-size: 1.25vw;
+}
 /* SMALL CARDS BUTTON STYLE END */
 
 /* BIG CARD STYLE START */
@@ -114,6 +117,10 @@
     left: 2.7vw;
     bottom: 19.5vw;
     cursor: pointer;
+    transition: 0.3s ease-out;
+}
+#stories-big-card-btn:hover{
+    font-size: 1.3vw;
 }
 /* BIG CARD STYLE END */
 
