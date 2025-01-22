@@ -15,7 +15,6 @@
 }
 .footer-right{
     flex-basis: 13.4vw;
-
 }
 .footer-left-top{
     display: flex;
@@ -86,3 +85,65 @@
 }
 
 /* RESPONSIVE STYLE FOR SMALL DEVICE  */
+/* RESPONSIVE STYLE FOR SMALL DEVICE  */
+@media screen and (max-width: 576px) {
+    .footer-section{
+        padding: 16.67vw 3.08vw 15.41vw 4.1vw;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 8.2vw;
+    }
+    .footer-left, 
+    .footer-middle,
+    .footer-right{
+        flex-basis: auto;
+    }
+    .footer-left-top{
+        margin-bottom: 5.82vw;
+        gap: 2.3vw;
+    }
+    .footer-left-logo-container{
+        width: 17.75vw;
+        height: 17.75vw;
+    }
+    .footer-left-logo-title{
+        font-size: 9.16vw;
+        line-height: 8.58vw;
+        
+    }
+    
+    .footer-left-description{
+        font-size: 4.1vw;
+        font-weight: 400;
+        line-height: 5.13vw;
+        margin-left: 1.28vw;
+    }
+    
+    .fm-list-item{
+         font-size: 4.35vw;
+        font-weight: 500;
+        line-height: 5.38vw;
+        margin-bottom: 4.4vw;
+        cursor: pointer;
+    }
+    #fm-about{
+        font-size: 5.22vw;
+        font-weight: 600;
+        line-height: 6.41vw;
+        margin-bottom: 7.07vw;
+    }
+    .footer-right-title{
+        font-size: 5.65vw;
+        font-weight: 700;
+        line-height: 5.65vw;
+        margin-bottom: 9.48vw;
+    }
+    .fr-list-item{
+        width: 8.7vw;
+        height: 8.7vw;
+    }
+    .footer-right-link-container{
+        gap: 2.2vw;
+    }
+}
